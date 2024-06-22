@@ -54,7 +54,7 @@ int main() {
 
 	// }
 
-	// approach - 3
+	// approach - 3 // mloglogm <= m * root(m)
 
 	for (int i = 2; i * i <= m; i++) { // i <= root(m)
 
