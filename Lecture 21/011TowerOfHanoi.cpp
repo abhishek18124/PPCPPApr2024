@@ -12,6 +12,8 @@ void f(int n, char src, char dst, char hlp) {
 
 	// recursive case
 
+	// move n disk from A(src) to C(dst) using B(hlp)
+
 	// 1. move n-1 disks from A(src) to B(hlp) using C(dst)
 
 	f(n - 1, src, hlp, dst);
