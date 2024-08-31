@@ -83,6 +83,8 @@ bool flipEquiv(TreeNode* root1, TreeNode* root2) {
 	// 	return false;
 	// }
 
+	// atleast one is not NULL
+
 	if (root1 == NULL || root2 == NULL) {
 		return false;
 	}
