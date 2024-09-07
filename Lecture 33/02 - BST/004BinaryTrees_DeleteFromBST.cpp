@@ -118,11 +118,11 @@ TreeNode* deleteFromBST(TreeNode* root, int key) {
 
 			// delete root node with two child nodes
 
-			// TreeNode* leftMax = findMaximum(root->left);
+			// TreeNode* leftMax = findMaximum(root->left); // inOrder pred.
 			// swap(root->val, leftMax->val);
 			// root->left = deleteFromBST(root->left, key);
 
-			TreeNode* rightMin = findMinimum(root->right);
+			TreeNode* rightMin = findMinimum(root->right); // inOrder succ.
 			swap(root->val, rightMin->val);
 			root->right = deleteFromBST(root->right, key);
 
