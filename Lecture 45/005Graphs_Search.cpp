@@ -67,6 +67,9 @@ public :
 		cout << endl;
 	}
 
+	// time : O(V + 2E)
+	// space: V (for visited) + V-1(for queue e.g. star graph)
+
 	void bfs(T s) {
 
 		cout << "bfs(" << s << ") : ";
